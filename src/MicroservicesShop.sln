@@ -7,7 +7,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{6A
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{FF8B346D-427E-4291-8F2C-74784A23A31E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.Api", "Services\Catalog\Catalog.Api\Catalog.Api.csproj", "{8105CBD1-3CAC-4862-B310-F6564C53B50D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catalog.Api", "Services\Catalog\Catalog.Api\Catalog.Api.csproj", "{8105CBD1-3CAC-4862-B310-F6564C53B50D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{461C2FDC-2AF3-4BD3-9ACA-E223DDA81071}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common\Common.csproj", "{379EAD8D-4EA6-4793-97DA-82B30D3C3F84}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,6 +23,10 @@ Global
 		{8105CBD1-3CAC-4862-B310-F6564C53B50D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8105CBD1-3CAC-4862-B310-F6564C53B50D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8105CBD1-3CAC-4862-B310-F6564C53B50D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{379EAD8D-4EA6-4793-97DA-82B30D3C3F84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{379EAD8D-4EA6-4793-97DA-82B30D3C3F84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{379EAD8D-4EA6-4793-97DA-82B30D3C3F84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{379EAD8D-4EA6-4793-97DA-82B30D3C3F84}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -26,6 +34,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{FF8B346D-427E-4291-8F2C-74784A23A31E} = {6A49165D-E327-49AC-BF99-858E7FC9DE3E}
 		{8105CBD1-3CAC-4862-B310-F6564C53B50D} = {FF8B346D-427E-4291-8F2C-74784A23A31E}
+		{379EAD8D-4EA6-4793-97DA-82B30D3C3F84} = {461C2FDC-2AF3-4BD3-9ACA-E223DDA81071}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9EE836B4-45E4-40C7-87B3-D0C200256251}
